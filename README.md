@@ -1,5 +1,5 @@
 # Intelligent Incident Response Platform
-안녕하세요
+
 ##  목표 구성도 참고 
 * Open Source Endpoint monitoring 
   - https://github.com/DearBytes/Opensource-Endpoint-Monitoring
