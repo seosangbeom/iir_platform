@@ -11,7 +11,7 @@
 ##  환경 구성 
 * Windows 7 32bit (Endpoint 환경) - VM 구성
   - Python 2.7 32bit
-  - Elastic Winlogbeat 7.6.2
+  - Elastic Winlogbeat 7.11.2
   - sysmon
     > microsoft의 sysinternals.com
   - Red Team Automation (Red Team용 MITRE ATT@CK 기반 malicious attack 발생)
@@ -20,13 +20,10 @@
     > https://github.com/SwiftOnSecurity/sysmon-config
     
 * Elastic Stack 64bit (Server 환경) - Host
-  - Elastic Logstach (Optional) 설치
-    > https://www.elastic.co/kr/downloads/logstash
-
-  - Elastic Elasticsearch 설치
+  - Elastic Elasticsearch 7.11.2 버전 설치
     > https://www.elastic.co/kr/downloads/elasticsearch
 
-  - Elastic Kibana 설치
+  - Elastic Kibana 7.11.2 버전 설치
     > https://www.elastic.co/kr/downloads/kibana
 
 * Ubuntu 18.04 64bit 환경
@@ -37,8 +34,6 @@
     > https://elastalert.readthedocs.io/en/latest/running_elastalert.html
 
 ##  실행 방법 
-
-* Win7sp1 sysmon vm 환경 실행
 
 * Win7sp1 sysmon vm 환경에서 sysmon 서비스 실행(관리자 계정)
   > sysmon.exe -i %configfile%
@@ -113,10 +108,10 @@
 * network.host 설정 bootstrap checks failed
   > https://soye0n.tistory.com/178
 
-
 [[ Elastalert ]]
 * pip install 오류
   > python version 3.6 다운
+
 ## Contributors
 * maxup37
 * idk3669
