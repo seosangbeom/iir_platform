@@ -1,4 +1,4 @@
-# Intelligent Incident Response Platform
+#  지능형 사고 대응 플랫폼
 
 ##  목표 구성도 참고 
 * Open Source Endpoint monitoring 
