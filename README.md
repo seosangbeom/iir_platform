@@ -106,7 +106,7 @@
 		
 * Elastalert
 	* Ubuntu 18.04 VM
-	* 
+	 
 		> git clone elastalert 디렉토리 내 /config.yaml//config.yaml이 없다면 config.yaml.example을 복사한 후 .example을 지우고 사용
 		> 
 		> es_host:[호스트 PC IP]
