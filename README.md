@@ -174,7 +174,7 @@
 	> 설정된 파일 하나에 룰이 저장되고, 룰 파일 내에 여러 룰이 있을 경우 마지막 룰만 인식이 되므로 나눠줘야 함	
 	> 		     
 	> csplit --prefix sigma_ --suffix-format "%04d.yml" rule "/^alert:/" "{*}" (sigmac 명령어를 통해 나온 파일이 있는 폴더에서 해야하며 많은 파일들이 생성될 예정)		
-	> 											
+	>
 	> sigma_000.yml 파일로 여러개가 저장되고 전부 elastalert 내 rule 폴더로 파일 이동						
 	
  ## 오류 수정 
