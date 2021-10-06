@@ -92,7 +92,7 @@
 		> 
 		> server.host:"host pc ip"(kibana를 실행한 PC의 IP로 설정)
 		> 
-		> elastcsearch.hosts:["http://[elasticsearch를 실행판 PC의 IP]:[포트]"]
+		> elastcsearch.hosts:["http://[elasticsearch를 실행한 PC의 IP]:[포트]"]
 		> 
 		> elasticsearch를 실행할 호스트 PC의 IP 설정
 * Winlogbeat
